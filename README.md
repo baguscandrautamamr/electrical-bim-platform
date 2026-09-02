@@ -25,7 +25,7 @@ Prasyarat: .NET SDK 8.
 dotnet run --project src/ElectricalBim.Api/ElectricalBim.Api.csproj
 ```
 
-Buka `http://localhost:5080`. Swagger tersedia di `/openapi/v1.json` saat environment Development.
+Buka `http://localhost:5080` untuk dashboard.
 
 ## Revit 2025 add-in
 
@@ -56,4 +56,3 @@ Setelah Revit dibuka, gunakan ribbon **Electrical BIM > Connect**. URL server de
 ## Keamanan produksi
 
 Sebelum dipasang ke internet, tambahkan OIDC/JWT, pembatasan tenant/project, TLS, audit log persisten, idempotency key, rate limiting, secret manager, dan validasi allowlist untuk jenis remote job.
-
