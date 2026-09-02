@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Electrical BIM Platform</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>6F6289A9-8B4E-48A1-9242-7F6D6A0C5101</AddInId>
+    <FullClassName>ElectricalBim.Revit.App</FullClassName>
+    <VendorId>EBIM</VendorId>
+    <VendorDescription>Electrical BIM Platform for Revit 2025</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+

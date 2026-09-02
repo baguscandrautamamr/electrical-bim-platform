@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricalBim.Contracts", "src\ElectricalBim.Contracts\ElectricalBim.Contracts.csproj", "{A083B1F8-91C0-4BE2-AE16-8F09106AA101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricalBim.Api", "src\ElectricalBim.Api\ElectricalBim.Api.csproj", "{F09C6C1E-E97E-4BBF-BDB5-83AF73C2A102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricalBim.Revit", "src\ElectricalBim.Revit\ElectricalBim.Revit.csproj", "{110D67B3-868F-4D70-9DB5-F8F648ACA103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A083B1F8-91C0-4BE2-AE16-8F09106AA101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A083B1F8-91C0-4BE2-AE16-8F09106AA101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A083B1F8-91C0-4BE2-AE16-8F09106AA101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A083B1F8-91C0-4BE2-AE16-8F09106AA101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09C6C1E-E97E-4BBF-BDB5-83AF73C2A102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09C6C1E-E97E-4BBF-BDB5-83AF73C2A102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09C6C1E-E97E-4BBF-BDB5-83AF73C2A102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09C6C1E-E97E-4BBF-BDB5-83AF73C2A102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110D67B3-868F-4D70-9DB5-F8F648ACA103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110D67B3-868F-4D70-9DB5-F8F648ACA103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110D67B3-868F-4D70-9DB5-F8F648ACA103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110D67B3-868F-4D70-9DB5-F8F648ACA103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Electrical BIM Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><div><span class="eyebrow">REVIT 2025 · LIVE</span><h1>Electrical BIM Platform</h1></div><span id="health" class="badge">Connecting…</span></header>
+  <main>
+    <section class="stats">
+      <article><span>Elements</span><strong id="elementCount">0</strong></article>
+      <article><span>Categories</span><strong id="categoryCount">0</strong></article>
+      <article><span>Queued jobs</span><strong id="jobCount">0</strong></article>
+      <article><span>Project</span><strong id="projectLabel">demo</strong></article>
+    </section>
+    <section class="grid">
+      <article class="panel wide"><div class="panel-title"><h2>Model overview</h2><button id="refresh">Refresh</button></div><div id="categories" class="bars"><p class="muted">Waiting for Revit sync…</p></div></article>
+      <article class="panel"><h2>BIM Chat</h2><div id="chat" class="chat"><p class="assistant">Tanyakan: “ringkas kategori”, “berapa panel”, atau “berapa circuit”.</p></div><form id="chatForm"><input id="chatInput" placeholder="Tanya tentang model…" required><button>Send</button></form></article>
+      <article class="panel"><h2>Remote Job Queue</h2><form id="jobForm" class="stack"><select id="jobType"><option>sync-model</option><option>select-elements</option><option>export-pdf</option><option>export-ifc</option></select><input id="agentId" value="revit-local" placeholder="Agent ID"><button>Queue job</button></form><div id="jobs" class="jobs"></div></article>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
+
