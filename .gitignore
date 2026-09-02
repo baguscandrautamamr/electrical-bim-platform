@@ -9,4 +9,4 @@ obj/
 appsettings.Local.json
 dist/
 node_modules/
-
+artifacts/*/

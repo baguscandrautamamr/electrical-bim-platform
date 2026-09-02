@@ -42,6 +42,8 @@ dotnet build src/ElectricalBim.Revit/ElectricalBim.Revit.csproj -c Release
 
 Setelah Revit dibuka, gunakan ribbon **Electrical BIM > Connect**. URL server default adalah `http://localhost:5080`.
 
+Paket add-in siap instal tersedia di [`artifacts/ElectricalBim-Revit2025-MVP.zip`](artifacts/ElectricalBim-Revit2025-MVP.zip). Ekstrak ZIP di PC yang memiliki Revit 2025, lalu jalankan `Install-ElectricalBim.ps1`.
+
 ## Endpoint utama
 
 - `GET /api/health`
